@@ -1,0 +1,62 @@
+body {
+    background-size: 100%;
+    background-image: url(images/1.gif);
+    background-attachment: fixed;
+}
+
+#daohang {
+    height: 70px;
+    border-bottom: groove;
+}
+
+#daohang1 {
+    display: inline-block;
+    width: 330px;
+    height: 70px;
+    text-align: right;
+}
+
+#daohang2 {
+    display: inline-block;
+    width: 940px;
+    height: 70px;
+    text-align: right;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 75px;
+    font-family: FangSong;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+    a:link {
+        color: blue;
+    }
+
+    a:visited {
+        color: red;
+    }
+
+    a:hover {
+        color: black;
+        font-size: 30px;
+    }
+
+#weibu {
+    width: 100vw;
+    height: 240px;
+    margin: auto;
+    background: rgba(0,148,255,0.3);
+}
+
+    #weibu span {
+        vertical-align: top;
+        display: inline-block;
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 200px;
+        text-align: center;
+    }
